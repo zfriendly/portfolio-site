@@ -1,9 +1,16 @@
 import React from "react"
-import { Icon, Modal, Header } from "semantic-ui-react"
+import { Icon, Modal, Header, Image } from "semantic-ui-react"
 import "./Project.css"
 
 const Project = data => {
-  const { name, languages, img } = data.projectData
+  const {
+    name,
+    languages,
+    img,
+    githubURL,
+    description,
+    deployed,
+  } = data.projectData
   return (
     <div
       className="project_cell"
@@ -12,14 +19,14 @@ const Project = data => {
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        width: "450px",
-        height: "300px",
+        width: "300px",
+        height: "200px",
       }}
     >
       <div className="project_details">
         <div>
-          <h1>{name}</h1>
-          <h2>{languages}</h2>
+          <h2>{name}</h2>
+          <h3>{languages}</h3>
 
           <Modal
             size="large"
@@ -28,18 +35,24 @@ const Project = data => {
               <Icon
                 className="click_icon"
                 name="arrow circle down"
-                size="huge"
+                size="big"
               />
             }
           >
-            <Modal.Header>{name}</Modal.Header>
-            <Modal.Content>
-              <Modal.Description>
-                <p>
-                  We've found the following gravatar image associated with your
-                  e-mail address.
-                </p>
-                <p>Is it okay to use this photo?</p>
+            <Modal.Header className="project_header">{name}</Modal.Header>
+            <Modal.Content image>
+              <Image wrapped size="huge" src={`${img}`} />
+              <Modal.Description className="project_modal">
+                <h2>{description}</h2>
+                <h3>{languages}</h3>
+                <div className="project_icons">
+                  <a href={`${githubURL}`} target="_blank">
+                    <Icon name="github" size="huge"></Icon>
+                  </a>
+                  <a href={`${deployed}`} target="_blank">
+                    <Icon name="play circle" size="huge"></Icon>
+                  </a>
+                </div>
               </Modal.Description>
             </Modal.Content>
           </Modal>

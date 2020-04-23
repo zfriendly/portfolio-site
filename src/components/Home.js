@@ -6,8 +6,12 @@ import "./Section.css"
 const Home = () => {
   return (
     <div className="section" id="home">
-      <Header as="h1">Hi! I'm Zack Friendly.</Header>
-      <Header as="h2">I'm a full-stack software engineer.</Header>
+      <Header as="h1" className="header_1">
+        Hi! I'm Zack Friendly.
+      </Header>
+      <Header as="h2" className="header_2">
+        I'm a full-stack software engineer.
+      </Header>
       <div>
         <a href="https://github.com/zfriendly" target="_blank">
           <Icon name="github" size="huge"></Icon>

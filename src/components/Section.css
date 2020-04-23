@@ -18,9 +18,29 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-gap: 0;
+  grid-gap: 40px;
   justify-content: space-around;
   align-items: center;
-  width: 80%;
+  width: 60%;
   margin: auto;
+}
+
+.header_1 {
+  color: white;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about_text {
+  width: 60%;
+  text-align: left;
+  color: blue;
+}
+.about_icons {
+  align: left;
 }

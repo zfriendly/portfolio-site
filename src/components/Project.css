@@ -1,6 +1,3 @@
-.project_cell {
-}
-
 .project_details {
   background-color: rgba(0, 0, 0, 0.632);
   width: 100%;
@@ -9,7 +6,24 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  visibility: visible;
+  text-align: center;
 }
 .click_icon:hover {
   color: green;
+}
+
+.project_modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project_header {
+  text-align: center;
+}
+
+.project_icons {
+  padding-left: 25%;
 }
