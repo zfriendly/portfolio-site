@@ -7,8 +7,8 @@ import { Home, About, Projects, Layout, SEO } from "../components"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Home></Home>
-    <About></About>
+    <Home />
+    <About />
     <Projects />
   </Layout>
 )
