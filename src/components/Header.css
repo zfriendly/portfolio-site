@@ -1,0 +1,13 @@
+.header_bar {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  background-color: white;
+  height: 75px;
+}
+
+.header_bar > h1 {
+  padding-left: 40px;
+}

@@ -1,0 +1,16 @@
+.section {
+  background: rgb(18, 60, 105);
+  background: linear-gradient(
+    180deg,
+    rgba(18, 60, 105, 0.8645833333333334) 48%,
+    rgba(18, 60, 105, 1) 100%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+}
