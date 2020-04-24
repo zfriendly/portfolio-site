@@ -13,7 +13,7 @@ const Home = () => {
         Hi! I'm Zack Friendly.
       </Header>
       <Header as="h2" className="header_2">
-        I'm a full-stack software engineer.
+        I'm a Full Stack Software Engineer.
       </Header>
       <div>
         <Icon
