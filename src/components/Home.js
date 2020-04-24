@@ -4,6 +4,9 @@ import { Header, Icon } from "semantic-ui-react"
 import "./Section.css"
 
 const Home = () => {
+  const scrollTo = id => {
+    document.querySelector(id).scrollIntoView({ behavior: "smooth" })
+  }
   return (
     <div className="section" id="home">
       <Header as="h1" className="header_1">
@@ -22,6 +25,16 @@ const Home = () => {
         <a href="mailto:zfriendly@gmail.com" target="_blank">
           <Icon name="mail" size="huge"></Icon>
         </a>
+      </div>
+      <div>
+        <Icon
+          color="black"
+          name="arrow circle down"
+          size="huge"
+          onClick={() => {
+            scrollTo("#about")
+          }}
+        ></Icon>
       </div>
     </div>
   )

@@ -1,11 +1,11 @@
 .section {
-  background: rgb(18, 60, 105);
+  /* background: rgb(18, 60, 105);
   background: linear-gradient(
     180deg,
     rgba(18, 60, 105, 0.8645833333333334) 48%,
     rgba(18, 60, 105, 1) 100%,
     rgba(255, 255, 255, 1) 100%
-  );
+  ); */
   width: 100%;
   height: 100vh;
   text-align: center;
@@ -13,6 +13,19 @@
   flex-direction: column;
   justify-content: space-evenly;
   color: white;
+}
+
+#home {
+  background-color: #457b9d;
+}
+#about {
+  background-color: #f1faee;
+}
+#projects {
+  background-color: #1d3557;
+}
+#contact {
+  background-color: #a8dadc;
 }
 .projects_grid {
   display: grid;

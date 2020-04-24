@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Grid, Menu, Sticky } from "semantic-ui-react"
 import Resume from "./Resume"
+import Contact from "./Contact"
 import "./Header.css"
 
 const Header = ({ siteTitle }) => {
@@ -33,6 +34,15 @@ const Header = ({ siteTitle }) => {
         </Menu.Item>
         <Menu.Item>
           <Resume />
+        </Menu.Item>
+        <Menu.Item>
+          <h2
+            onClick={() => {
+              scrollTo("#contact")
+            }}
+          >
+            Contact
+          </h2>
         </Menu.Item>
       </Menu>
     </div>
