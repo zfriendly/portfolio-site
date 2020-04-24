@@ -4,10 +4,34 @@
   justify-content: space-between;
   align-items: center;
   top: 0;
-  background-color: #457b9d;
+  background-color: #f1faee;
   height: 75px;
 }
 
 .header_bar > h2 {
   padding-left: 40px;
+}
+.menu_items {
+  display: flex;
+}
+
+@media only screen and (max-width: 700px) {
+  .header_bar {
+    height: 100px;
+    position: relative;
+  }
+  h2 {
+    font-size: 25px !important;
+  }
+  .menu_items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  h2 {
+    font-size: 15px !important;
+  }
 }

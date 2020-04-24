@@ -29,7 +29,7 @@ const Project = data => {
           <h3>{languages}</h3>
 
           <Modal
-            size="large"
+            size="small"
             dimmer="blurring"
             trigger={
               <Icon
@@ -39,18 +39,26 @@ const Project = data => {
               />
             }
           >
-            <Modal.Header className="project_header">{name}</Modal.Header>
-            <Modal.Content image>
+            <Modal.Header className="modal_header">{name}</Modal.Header>
+            <Modal.Content image className="modal_content">
               <Image wrapped size="huge" src={`${img}`} />
               <Modal.Description className="project_modal">
                 <h2>{description}</h2>
-                <h3>{languages}</h3>
+                <h3>Built with: {languages}</h3>
                 <div className="project_icons">
                   <a href={`${githubURL}`} target="_blank">
-                    <Icon name="github" size="huge"></Icon>
+                    <Icon
+                      name="github"
+                      size="huge"
+                      className="click_icon"
+                    ></Icon>
                   </a>
                   <a href={`${deployed}`} target="_blank">
-                    <Icon name="play circle" size="huge"></Icon>
+                    <Icon
+                      name="play circle"
+                      size="huge"
+                      className="click_icon"
+                    ></Icon>
                   </a>
                 </div>
               </Modal.Description>

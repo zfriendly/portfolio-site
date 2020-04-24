@@ -16,21 +16,10 @@ const Home = () => {
         I'm a full-stack software engineer.
       </Header>
       <div>
-        <a href="https://github.com/zfriendly" target="_blank">
-          <Icon name="github" size="huge"></Icon>
-        </a>
-        <a href="https://www.linkedin.com/in/zackfriendly/" target="_blank">
-          <Icon name="linkedin" size="huge"></Icon>
-        </a>
-        <a href="mailto:zfriendly@gmail.com" target="_blank">
-          <Icon name="mail" size="huge"></Icon>
-        </a>
-      </div>
-      <div>
         <Icon
-          color="black"
           name="arrow circle down"
           size="huge"
+          className="click_more"
           onClick={() => {
             scrollTo("#about")
           }}

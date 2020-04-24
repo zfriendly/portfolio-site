@@ -13,37 +13,40 @@ const Header = ({ siteTitle }) => {
   return (
     <div className="header_bar">
       <h2>Zack Friendly</h2>
+
       <Menu floated="right" secondary>
-        <Menu.Item>
-          <h2
-            onClick={() => {
-              scrollTo("#about")
-            }}
-          >
-            About
-          </h2>
-        </Menu.Item>
-        <Menu.Item>
-          <h2
-            onClick={() => {
-              scrollTo("#projects")
-            }}
-          >
-            Projects
-          </h2>
-        </Menu.Item>
-        <Menu.Item>
-          <Resume />
-        </Menu.Item>
-        <Menu.Item>
-          <h2
-            onClick={() => {
-              scrollTo("#contact")
-            }}
-          >
-            Contact
-          </h2>
-        </Menu.Item>
+        <div className="menu_items">
+          <Menu.Item>
+            <h2
+              onClick={() => {
+                scrollTo("#about")
+              }}
+            >
+              About
+            </h2>
+          </Menu.Item>
+          <Menu.Item>
+            <h2
+              onClick={() => {
+                scrollTo("#projects")
+              }}
+            >
+              Projects
+            </h2>
+          </Menu.Item>
+          <Menu.Item>
+            <Resume />
+          </Menu.Item>
+          <Menu.Item>
+            <h2
+              onClick={() => {
+                scrollTo("#contact")
+              }}
+            >
+              Contact
+            </h2>
+          </Menu.Item>
+        </div>
       </Menu>
     </div>
   )
