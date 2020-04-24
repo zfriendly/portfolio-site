@@ -4,8 +4,9 @@
   justify-content: space-between;
   align-items: center;
   top: 0;
-  background-color: #f1faee;
+  background-color: #457b9d;
   height: 75px;
+  border-bottom: 1px solid white;
 }
 
 .header_bar > h2 {
