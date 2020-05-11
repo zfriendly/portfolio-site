@@ -45,9 +45,14 @@
 }
 
 .about_text {
-  width: 60%;
+  width: 40%;
   text-align: left;
   color: blue;
+}
+
+.skill_titles {
+  color: #457b9d;
+  text-decoration: underline;
 }
 .ui.header.header_1 {
   font-size: 6rem;
@@ -61,12 +66,12 @@
   color: #1d3557;
 }
 .about_textboxes {
-  font-size: 30px !important;
+  font-size: 16px !important;
 }
 
 @media only screen and (max-width: 900px) {
   .about_textboxes {
-    font-size: 20px !important;
+    font-size: 12px !important;
   }
   #about {
     flex-direction: column;
@@ -90,7 +95,7 @@
 }
 @media only screen and (max-width: 600px) {
   .about_textboxes {
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
   #about {
     flex-direction: column;
@@ -105,7 +110,7 @@
     padding: 30px;
   }
   .headshot {
-    max-height: 150px;
-    max-width: 150px;
+    min-height: 100px;
+    min-width: 100px;
   }
 }

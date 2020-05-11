@@ -24,12 +24,17 @@ const About = () => {
         </Header>
         <Header size="huge">// Skills</Header>
         <Header className="about_textboxes">
-          Git/Github || HTML || CSS || Javascript || React.JS || Gatsby.JS{" "}
+          <span className="skill_titles">Front-End: </span> HTML, CSS,
+          Javascript, React, Vue, Gatsby/GraphQL
           <br />
-          GraphQL || Node.JS || Express || SQL || MongoDB/Mongoose || Python{" "}
+          <span className="skill_titles">Back-End: </span> Node, Express,
+          Python, Django, MongoDB, PostgreSQL
           <br />
-          Django || Salesforce || Jira/Trello/Slack || Adobe
-          Photoshop/XD/Illustrator
+          <span className="skill_titles">Deployment/Management: </span> Git,
+          Github, NPM, Heroku, Pip
+          <br />
+          <span className="skill_titles">Other Skills: </span> Adobe
+          Photoshop/XD, Jira, Trello, Salesforce
         </Header>
         <div className="about_icons">
           <a href="https://github.com/zfriendly" target="_blank">
