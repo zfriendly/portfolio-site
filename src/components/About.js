@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="section" id="about">
       <Image
-        src="https://i.imgur.com/DJxH6eh.png"
+        src="https://i.imgur.com/fDUtTPD.jpg"
         size="medium"
         circular
         className="headshot"
