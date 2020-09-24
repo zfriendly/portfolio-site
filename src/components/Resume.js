@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 const Resume = () => {
   const data = useStaticQuery(graphql`
     {
-      file(name: { eq: "Resume_Zack_Friendly" }) {
+      file(name: { eq: "Resume" }) {
         publicURL
       }
     }
