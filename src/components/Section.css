@@ -5,13 +5,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  color: white;
+  color: #f1faee;
 }
 .ui.header.span {
   font-weight: 900 !important;
 }
 #home {
-  background-color: #457b9d;
+  background-color: #1d3557;
 }
 #about {
   background-color: #f1faee;
@@ -20,7 +20,7 @@
   background-color: #1d3557;
 }
 #contact {
-  background-color: #a8dadc;
+  background-color: #f1faee;
 }
 .projects_grid {
   display: grid;
@@ -34,7 +34,7 @@
 }
 
 .header_1 {
-  color: white;
+  color: #f1faee !important;
 }
 
 #about {
@@ -47,7 +47,11 @@
 .about_text {
   width: 40%;
   text-align: left;
-  color: blue;
+  color: #457b9d !important;
+}
+
+.about_textboxes {
+  color: #1d3557;
 }
 
 .skill_titles {
@@ -63,7 +67,7 @@
   color: #f1faee;
 }
 .click_more:hover {
-  color: #1d3557;
+  color: #457b9d;
 }
 .about_textboxes {
   font-size: 16px !important;

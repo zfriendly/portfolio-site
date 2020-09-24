@@ -12,8 +12,7 @@ const Header = ({ siteTitle }) => {
   }
   return (
     <div className="header_bar">
-      <h2>Zack Friendly</h2>
-
+      <h2></h2>
       <Menu floated="right" secondary>
         <div className="menu_items">
           <Menu.Item>
