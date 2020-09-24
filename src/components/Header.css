@@ -5,6 +5,7 @@
   align-items: center;
   top: 0;
   background-color: #f1faee;
+  color: #1d3557 !important;
   height: 75px;
   border-bottom: 1px solid white;
 }
@@ -16,6 +17,7 @@
 }
 .menu_items {
   display: flex;
+  color: #1d3557;
 }
 
 @media only screen and (max-width: 700px) {

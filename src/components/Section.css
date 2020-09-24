@@ -20,6 +20,7 @@
   background-color: #1d3557;
 }
 #contact {
+  color: #1d3557;
   background-color: #f1faee;
 }
 .projects_grid {
@@ -49,11 +50,9 @@
   text-align: left;
   color: #457b9d !important;
 }
-
-.about_textboxes {
+.click_icon {
   color: #1d3557;
 }
-
 .skill_titles {
   color: #457b9d;
   text-decoration: underline;
@@ -71,6 +70,7 @@
 }
 .about_textboxes {
   font-size: 16px !important;
+  color: #1d3557;
 }
 
 @media only screen and (max-width: 900px) {

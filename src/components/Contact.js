@@ -10,10 +10,8 @@ const Contact = () => {
   }
   return (
     <div className="section" id="contact">
-      <Header color="black" size="huge">
-        Got a question? Feel free to drop me a line.
-      </Header>
-      <div className="about_icons">
+      <Header size="huge">Got a question? Feel free to drop me a line.</Header>
+      <div className="contact_icons">
         <a href="https://github.com/zfriendly" target="_blank">
           <Icon
             className="animate-icon"
