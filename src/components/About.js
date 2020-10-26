@@ -20,7 +20,7 @@ const About = () => {
           investigator by day and music events producer by night allowed me
           develop a capacity to independently problem-solve and balance multiple
           competing deadlines and tight budgets. I approach each problem with
-          thoughftulness and a willingness to work within a team to reach a
+          thoughtfulness and a willingness to work within a team to reach a
           shared goal. I am experienced in working across a wide range of
           disciplines, from app-building and software debugging to large-scale
           event production to discreet investigations.
